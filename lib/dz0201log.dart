@@ -174,7 +174,7 @@ class _Dz0201logState extends State<Dz0201log> {
                           }
                         },
                         style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.purple),
+                            backgroundColor: Color.fromARGB(255, 22, 131, 120)),
                         child: Text(
                           'Войти',
                           style: TextStyle(color: Colors.white),
@@ -187,7 +187,7 @@ class _Dz0201logState extends State<Dz0201log> {
                     },
                     child: Text('назад',
                         style: TextStyle(
-                            color: Color.fromARGB(255, 225, 118, 244),
+                            color: Color.fromARGB(255, 90, 236, 192),
                             decoration: TextDecoration.underline)),
                   ),
                   
