@@ -45,7 +45,7 @@ class _RickiScreenState extends State<RickiScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 252, 166, 29),
+        backgroundColor: Color.fromARGB(255, 88, 252, 29),
         title: Text('Ricki and Morty'),),
 //7
       body: ListView.builder(
