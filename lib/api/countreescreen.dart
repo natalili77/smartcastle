@@ -44,7 +44,7 @@ class _CountreeScreenState extends State<CountreeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Список стран',),
+      appBar: AppBar(title: Text('Список всех стран',),
       backgroundColor: Color.fromARGB(255, 105, 3, 178),),
       body: ListView.builder(
         itemCount: countries.length,

@@ -113,7 +113,7 @@ class _apiuzState extends State<apiuz> {
                     child: Container(
                       padding: EdgeInsets.all(16),
                       decoration: BoxDecoration(
-                          color: Color.fromARGB(255, 165, 9, 192),
+                          color: Color.fromARGB(255, 9, 134, 156),
                           borderRadius: BorderRadius.circular(15)),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -137,7 +137,7 @@ class _apiuzState extends State<apiuz> {
                     child: Container(
                       padding: EdgeInsets.all(16),
                       decoration: BoxDecoration(
-                          color: Color.fromARGB(255, 165, 9, 192),
+                          color: Color.fromARGB(255, 6, 170, 179),
                           borderRadius: BorderRadius.circular(15)),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
