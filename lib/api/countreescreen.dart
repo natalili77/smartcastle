@@ -20,6 +20,8 @@ class _CountreeScreenState extends State<CountreeScreen> {
    List<CountryModel> countries = [];
 
    void initState() {
+
+
     super.initState();
     getCountries();
   }
@@ -45,7 +47,7 @@ class _CountreeScreenState extends State<CountreeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Список всех стран',),
-      backgroundColor: Color.fromARGB(255, 105, 3, 178),),
+      backgroundColor: Color.fromARGB(255, 125, 10, 208),),
       body: ListView.builder(
         itemCount: countries.length,
         itemBuilder: (context, index){
@@ -62,13 +64,13 @@ class _CountreeScreenState extends State<CountreeScreen> {
             children: [
               Row(
                 children: [
-                  Text('Столица: ', style: TextStyle(fontWeight: FontWeight.bold)),
+                  Text('Столица страны: ', style: TextStyle(fontWeight: FontWeight.bold)),
                   Text(countries[index].capital!.first),
                 ],
               ),
               Row(
                 children: [
-                  Text('Население: ', style: TextStyle(fontWeight: FontWeight.bold)),
+                  Text('Peoples/Население: ', style: TextStyle(fontWeight: FontWeight.bold)),
                   Text(countries[index].population!.toString()),
                 ],
               ),
